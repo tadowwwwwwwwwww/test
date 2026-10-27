@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "hugosmp-ah-prices",
+  "version": "${version}",
+  "name": "HugoSMP AH Prices",
+  "description": "Liest AH-Preise von hugosmp.net mit und zeigt sie als Tooltip bei jedem Item an.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.hugosmp.ahprices.HugoAhPrices"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
